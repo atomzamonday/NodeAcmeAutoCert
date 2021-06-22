@@ -1,8 +1,8 @@
 {
   "name": "acmenodeautocert",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.ts",
+  "description": "NODE ACME AUTO CERT. BUILD WITH acme-client. see app.ts",
+  "main": "index.js",
   "scripts": {
     "build": "tsc"
   },
