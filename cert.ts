@@ -13,7 +13,7 @@ const getCert = async (email: string, domain: string[]) => {
     root: path.join(__dirname, "public"),
   });
 
-  await app.listen(8080, "0.0.0.0");
+  await app.listen(80, "0.0.0.0");
 
   const client = new Client({
     directoryUrl: directory.letsencrypt.production,
