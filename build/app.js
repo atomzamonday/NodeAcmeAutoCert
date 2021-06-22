@@ -1,7 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.getCert = void 0;
 const cert_1 = require("./cert");
-(async () => {
-    const cert = await cert_1.getCert("chayoot789@hotmail.com", ["atomza.com"]);
-    console.log(cert);
-})();
+Object.defineProperty(exports, "getCert", { enumerable: true, get: function () { return cert_1.getCert; } });
